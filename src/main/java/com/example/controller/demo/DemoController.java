@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -13,8 +14,8 @@ import java.util.List;
  * @Author ddyy
  * @Date 2020/10/16 0016 16:43
  */
-@Controller
-@RequestMapping("/DemoController")
+@RestController
+@RequestMapping
 public class DemoController {
 
     @Autowired

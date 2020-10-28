@@ -4,6 +4,7 @@ import com.example.mapper.demo.DemoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,6 +18,7 @@ public class DemoService {
     private DemoMapper demoMapper;
 
     public List<String> listString(){
-        return demoMapper.listString();
+        //return demoMapper.listString();
+        return new ArrayList<>();
     }
 }
